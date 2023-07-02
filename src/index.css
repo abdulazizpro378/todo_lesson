@@ -3,4 +3,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #fff !important;
+    height: 100vh;
 }
