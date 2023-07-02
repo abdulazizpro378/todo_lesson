@@ -86,7 +86,7 @@ export class Todo extends Component {
       let todos = this.state.todos.filter((todo) => todo.id !== id);
       this.setState({ todos });
       localStorage.setItem(TODOS, JSON.stringify(todos));
-      setTodos();
+    
     };
 
     // edit
